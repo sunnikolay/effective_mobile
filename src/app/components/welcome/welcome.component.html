@@ -1,0 +1,49 @@
+<app-header></app-header>
+<div class="container" style="margin-top: 15px; margin-bottom: 15px;">
+  <div class="card">
+    <div class="card-header">
+      {{title}}
+    </div>
+    <div class="card-body">
+      <div class="container-fluid">
+        <div class="text-center">
+          <img src="./assets/images/work_is_fun.png"
+               class="img-responsive center-block"
+               style="max-height:300px;padding-bottom:50px" />
+        </div>
+        <div>
+          <p>Требуется разработать приложение на Angular. Оно должно содержать в себе:</p>
+          <ul>
+            <li>страницу авторизации;</li>
+            <li>страницу с таблицей постов (https://jsonplaceholder.typicode.com/posts), с этой страницы можно перейти на страницу поста по id;</li>
+            <li>страницу поста по id (https://jsonplaceholder.typicode.com/posts/1), с этой страницы можно вернуться на страницу всех постов;</li>
+            <li>шапку, в которой расположены кнопки авторизации/деавторизации</li>
+          </ul>
+
+          <p>Требования:</p>
+          <ul>
+            <li>Использовать Angular 16 версии</li>
+            <li>Для UI использовать Angular Material (можно без нее)</li>
+            <li>Роутинг</li>
+            <li>Реактивные формы для страниц авторизации + валидация форм на свое усмотрение</li>
+            <li>Страница постов и поста по id доступна только авторизованным пользователям</li>
+            <li>Данные для регистрации пользователя сохранять в localStorage, при логине их оттуда брать</li>
+            <li><i>(опционально) Lazy Loading модулей</i></li>
+          </ul>
+
+          <p>Рекомендации:</p>
+          <ul>
+            <li>Использовать класс HttpClient для обращений к стороннему API</li>
+            <li>Типизация форм, интерфейсов, методов, без any</li>
+            <li>Использовать Angular сервисы</li>
+            <li>Использовать @Input() @Output()</li>
+            <li>Не оставлять неиспользуемый (мертвый) код и пустые файлы</li>
+          </ul>
+
+          <p>UI на свое усмотрение, дедлайн 1 неделя</p>
+          <p>Исходный код заливать на гитхаб</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
